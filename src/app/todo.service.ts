@@ -16,7 +16,7 @@ export class TodoService {
     private _todos: BehaviorSubject<Todo[]>;
 
     // Base URL of RESTful service - replace with your own - DONE!
-    private baseUrl = "http://583c1175895cd41200754c02.mockapi.io/todos";
+    private baseUrl = 'http://583c1175895cd41200754c02.mockapi.io/todos';
 
     // Define header content type - very important!
     private headers = new Headers({'Content-Type': 'application/json'});
