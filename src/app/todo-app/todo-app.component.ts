@@ -56,8 +56,8 @@ export class TodoAppComponent implements OnInit {
   }
 
   // Call delete
-  removeTodo(todo) {
-    this.todoService.remove(todo.id);
+  deleteTodo(todoId: number) {
+    this.todoService.remove(todoId);
   }
 
 }
